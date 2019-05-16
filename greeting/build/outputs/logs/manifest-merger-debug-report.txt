@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml:1:1-2:30
+INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml:1:1-2:30
+INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml:1:1-2:30
+	package
+		ADDED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
+		INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
+INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
+		ADDED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
+		INJECTED from /Users/javierarroyo/Projects/Pruebas/KotlinMultiplatform/kotlin-mpp-example/greeting/src/main/AndroidManifest.xml
