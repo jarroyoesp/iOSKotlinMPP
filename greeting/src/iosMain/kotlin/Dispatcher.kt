@@ -2,8 +2,6 @@ package com.jarroyo.kotlinmultiplatform
 
 import kotlinx.coroutines.*
 import platform.Foundation.NSData
-import platform.UIKit.UIImage
-import platform.UIKit.UIView
 import platform.darwin.*
 import kotlin.coroutines.CoroutineContext
 import kotlin.native.concurrent.freeze
