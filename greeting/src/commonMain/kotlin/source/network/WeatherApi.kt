@@ -15,15 +15,14 @@ class WeatherApi {
 
     private val httpClient = HttpClient()
 
-    fun getCurrentWeather(success: (String) -> Unit, failure: (Throwable?) -> Unit) {
+    fun getCurrentWeather(success: (CurrentWeather) -> Unit, failure: (Throwable?) -> Unit) {
         GlobalScope.launch(ApplicationDispatcher) {
             try {
                 val url =
                     "https://api.openweathermap.org/data/2.5/weather?q=Zaragoza&APPID=f11780da3330643cd659bb6dbb4e44a3"
-                val json = httpClient.get<String>(url)
-                success(json)    
-                //Json.nonstrict.parse(CurrentWeather.serializer(), json)
-                //    .also(success)
+                val json = httpClient.get<String>(url) 
+                Json.nonstrict.parse(CurrentWeather.serializer(), json)
+                    .also(success)
             } catch (ex: Exception) {
                 failure(ex)
             }
