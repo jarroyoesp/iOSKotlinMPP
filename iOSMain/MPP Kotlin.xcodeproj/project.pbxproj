@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04199DD3228D812200F67535 /* greeting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04199DD2228D812200F67535 /* greeting.framework */; };
+		04199DD4228D812200F67535 /* greeting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04199DD2228D812200F67535 /* greeting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		044001EC228C5A08000477BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044001EB228C5A08000477BF /* AppDelegate.swift */; };
 		044001EE228C5A08000477BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044001ED228C5A08000477BF /* ViewController.swift */; };
 		044001F1228C5A08000477BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044001EF228C5A08000477BF /* Main.storyboard */; };
@@ -33,7 +35,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04199DD5228D812300F67535 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04199DD4228D812200F67535 /* greeting.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04199DD2228D812200F67535 /* greeting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = greeting.framework; path = ../greeting/build/bin/ios/debugFramework/greeting.framework; sourceTree = "<group>"; };
 		044001E8228C5A08000477BF /* MPP Kotlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPP Kotlin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044001EB228C5A08000477BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044001ED228C5A08000477BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04199DD3228D812200F67535 /* greeting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 		044001DF228C5A08000477BF = {
 			isa = PBXGroup;
 			children = (
+				04199DD2228D812200F67535 /* greeting.framework */,
 				044001EA228C5A08000477BF /* MPP Kotlin */,
 				044001FF228C5A09000477BF /* MPP KotlinTests */,
 				0440020A228C5A09000477BF /* MPP KotlinUITests */,
@@ -136,6 +155,7 @@
 				044001E4228C5A08000477BF /* Sources */,
 				044001E5228C5A08000477BF /* Frameworks */,
 				044001E6228C5A08000477BF /* Resources */,
+				04199DD5228D812300F67535 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
